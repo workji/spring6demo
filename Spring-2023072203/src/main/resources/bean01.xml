@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <!-- Di by setter -->
+    <bean id="book01" class="org.example.di.Book">
+        <property name="bookName" value="Java Spring"></property>
+        <property name="author" value="Ki"></property>
+    </bean>
+
+    <!-- Di by constructor -->
+    <bean id="person01" class="org.example.di.Person">
+        <constructor-arg name="name" value="曾根崎"></constructor-arg>
+        <constructor-arg name="age" value="30"></constructor-arg>
+    </bean>
+
+    <bean id="person02" class="org.example.di.Person"></bean>
+
+</beans>

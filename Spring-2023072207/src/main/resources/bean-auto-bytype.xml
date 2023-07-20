@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- auto -->
+    <bean id="controller01" class="org.example.auto.controller.UserController" autowire="byType">
+    </bean>
+
+    <bean id="service01" class="org.example.auto.service.UserServiceImpl" autowire="byType">
+    </bean>
+
+    <bean id="dao01" class="org.example.auto.dao.UserDaoImpl"></bean>
+
+</beans>

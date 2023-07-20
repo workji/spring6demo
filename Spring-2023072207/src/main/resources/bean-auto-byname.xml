@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- auto by name -->
+    <!-- bean's id must equal property_name -->
+    <bean id="controller01" class="org.example.auto.controller.UserController" autowire="byName">
+    </bean>
+
+    <bean id="userService" class="org.example.auto.service.UserServiceImpl" autowire="byName">
+    </bean>
+
+    <bean id="userDao" class="org.example.auto.dao.UserDaoImpl"></bean>
+
+</beans>

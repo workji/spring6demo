@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- manual -->
+    <bean id="controller01" class="org.example.auto.controller.UserController">
+        <property name="userService" ref="service01"></property>
+    </bean>
+
+    <bean id="service01" class="org.example.auto.service.UserServiceImpl">
+        <property name="userDao" ref="dao01"></property>
+    </bean>
+
+    <bean id="dao01" class="org.example.auto.dao.UserDaoImpl"></bean>
+
+</beans>

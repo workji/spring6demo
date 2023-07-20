@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean
+            id="user01"
+            class="org.example.life.User"
+            scope="singleton"
+            init-method="initMethod"
+            destroy-method="destroyMethod"
+    >
+        <property name="name" value="lucy"></property>
+    </bean>
+
+    <!-- include bean postprocessor to ioc effect -->
+    <bean id="myProcessor01" class="org.example.life.MyBeanPostProcessor"></bean>
+
+</beans>
