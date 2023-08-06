@@ -19,6 +19,14 @@
         <module>Spring-2023072208</module>
         <module>Spring-2023072209</module>
         <module>Spring-2023072901</module>
+        <module>OldSpringMvc-01</module>
+        <module>OldSpringMvc-02</module>
+        <module>OldSpringMvc-03</module>
+        <module>OldSpringMvc-04</module>
+        <module>OldSpringMvc-05</module>
+        <module>NewSpringMvc-01</module>
+        <module>NewSpringMvc-02</module>
+        <module>NewSpringMvc-03</module>
     </modules>
 
     <properties>
