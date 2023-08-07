@@ -27,6 +27,7 @@
         <module>NewSpringMvc-01</module>
         <module>NewSpringMvc-02</module>
         <module>NewSpringMvc-03</module>
+        <module>NewSpringMvc-04</module>
     </modules>
 
     <properties>
