@@ -28,6 +28,8 @@
         <module>NewSpringMvc-02</module>
         <module>NewSpringMvc-03</module>
         <module>NewSpringMvc-04</module>
+        <module>spring-tx-01</module>
+        <module>spring-tx-02</module>
     </modules>
 
     <properties>
